@@ -34,13 +34,13 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m Achyut Katiyar, a Full Stack Developer with a passion for creating innovative web applications and exploring blockchain technologies. I&apos;m currently pursuing a Master&apos;s in Computer Science at Northeastern University, where I continue to expand my knowledge and skills.
+                I&apos;m Ojaswi Gahoi, a Full Stack Developer with a passion for creating innovative web applications and exploring machine learning technologies. I&apos;m currently pursuing a Bachelor&apos;s in Computer Science at VIT Bhopal University, where I continue to expand my knowledge and skills.
               </p>
               <p>
-                With expertise in Next.js, React, and various blockchain technologies, I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
+                With expertise in Next.js, React, and various machine learning technologies, I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
               </p>
               <p>
-                I&apos;m particularly interested in the intersection of web development and blockchain technology, where I&apos;ve developed several projects that leverage the power of decentralized systems to create secure and transparent applications.
+                I&apos;m particularly interested in the intersection of web development and machine learning technology, where I&apos;ve developed several projects that leverage the power of AI and data science to create intelligent and efficient applications.
               </p>
             </div>
 
@@ -63,9 +63,9 @@ export default function AboutPage() {
                       </span>
                       <span className="text-muted-foreground">{edu.location}</span>
                     </div>
-                    {edu.gpa && (
+                    {edu.cgpa && (
                       <Badge variant="outline" className="mt-2">
-                        CGPA: {edu.gpa}
+                        CGPA: {edu.cgpa}
                       </Badge>
                     )}
                     {edu.description && (
@@ -104,37 +104,31 @@ export default function AboutPage() {
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Led University&apos;s Technical Team as Convener, increasing student engagement by 40% through committee formation and industry-aligned website redesigns.
+                      Top 30 Performer At IIC Manipal 2024 - Recognized for exceptional performance in innovation and entrepreneurship.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Served as a Board Member of the APP Design and Development Club, mentoring newcomers and improving skills by 60%.
+                      Finalist at Internal SIH - VIT Bhopal 2024 - Competed in Smart India Hackathon representing VIT Bhopal.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Won $1500 Nillion Track Prize at Hacker House Goa 2024.
+                      Top 10 Scholar at XII Boards - Achieved outstanding academic performance in senior secondary education.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Awarded $600 at Move it with Aptos event.
+                      9.69 CGPA in Interim Semester at VIT Bhopal - Demonstrated academic excellence in computer science coursework.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Received $500 Marbelism Track Prize at HACKSRM 2.0 2024.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Won $100 at APPATHON 2022.
+                      Finalist at BashCraft&apos;s Zerodha Financial Hackathon 2023 - Competed in financial technology hackathon.
                     </span>
                   </li>
                 </ul>
